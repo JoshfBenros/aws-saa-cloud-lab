@@ -1,26 +1,36 @@
-# AWS SAA Home Lab
+# AWS Solutions Architect Associate Cloud Lab
 
-Hands-on infrastructure labs supporting AWS Certified Solutions Architect – Associate study, using VMware Workstation to connect cloud architecture concepts with practical systems administration and security.
+Hands-on AWS project supporting my preparation for the AWS Certified Solutions Architect – Associate (SAA-C03).
 
-## Purpose
-
-Build infrastructure understanding alongside certification knowledge through local implementation, troubleshooting, and documented AWS architecture mappings.
+This repository documents practical AWS work completed while studying cloud architecture, including identity and access management, compute, networking, storage, monitoring, security, and resilient architecture.
 
 ## Learning Approach
 
-Course lesson → understand the problem → map it to infrastructure → build locally when useful → document → review.
+For major AWS topics:
 
-Local exercises reinforce the underlying concepts. AWS mappings explain how those concepts apply in the cloud and where AWS managed services differ from local implementations.
+1. Learn the service and architecture concept.
+2. Implement the concept in AWS when practical.
+3. Validate the configuration and expected behavior.
+4. Understand why the service is used and how it fits into a larger architecture.
+5. Document meaningful labs and lessons learned.
+6. Clean up temporary resources when they are no longer needed.
 
-## Lab Environment
+The goal is to develop both certification knowledge and practical familiarity with AWS administration.
 
-- VMware Workstation on Windows 11
-- Windows and Linux virtual machines
-- Networking and security analysis tools
-- Git and GitHub for version control and documentation
+## Current Focus
 
-## Scope
+- AWS Identity and Access Management (IAM)
+- AWS CLI
+- Permissions and least privilege
 
-This repository focuses on infrastructure exercises tied to AWS SAA study. Lab documentation records objectives, architecture, implementation, validation, and lessons learned.
+## Environment
 
-The supporting remote-access infrastructure is documented separately in [secure-home-remote-access](https://github.com/JoshfBenros/secure-home-remote-access).
+- AWS Management Console
+- AWS CLI
+- Visual Studio Code
+- Git / GitHub
+- Windows 11 development workstation
+
+## Cost Management
+
+Labs use temporary resources where practical. Billing and cost monitoring are reviewed throughout the project, and resources are stopped or terminated when no longer required.
