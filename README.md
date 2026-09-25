@@ -15,13 +15,19 @@ For major AWS topics:
 5. Document meaningful labs and lessons learned.
 6. Clean up temporary resources when they are no longer needed.
 
-The goal is to develop both certification knowledge and practical familiarity with AWS administration.
+The goal is to develop both certification knowledge and practical familiarity with AWS administration and cloud architecture.
 
-## Current Focus
+## Areas of Development
 
-- AWS Identity and Access Management (IAM)
-- AWS CLI
-- Permissions and least privilege
+- Identity and access management
+- Compute and storage
+- Networking and VPC architecture
+- Monitoring and logging
+- Security and encryption
+- Databases and managed services
+- High availability and scalability
+- Disaster recovery and resilient architecture
+- AWS CLI and cloud administration
 
 ## Environment
 
@@ -30,7 +36,3 @@ The goal is to develop both certification knowledge and practical familiarity wi
 - Visual Studio Code
 - Git / GitHub
 - Windows 11 development workstation
-
-## Cost Management
-
-Labs use temporary resources where practical. Billing and cost monitoring are reviewed throughout the project, and resources are stopped or terminated when no longer required.
